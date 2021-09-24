@@ -1,0 +1,25 @@
+public static void main(String[]args){
+int buscar[]={4,5,6,2,7,12,33};
+int dato;
+Scanner scan=new Scanner();
+System.out.print("Ingrese dato a buscar");
+dato=scan.nextInt();
+BSecuencial(buscar,dato);
+
+}
+public static void BSecuancial(a[],num){
+  int i=0;
+  boolean buscar;
+  while(i<7 buscar==false){
+      if(a[i]==num){
+        buscar==true
+      }
+    i++;
+  }
+  if(buscar==false){
+  System.out.println("Su numero no se encuentra en la lista");
+  }
+  else{
+  System.out.println("Su numero esta en la posicion:"+i);
+  }
+}
